@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "api-rpa-toolkit"
+version = "1.0.0"
+description = "A api-rpa-toolkit é uma poderosa API Python baseada em FastAPI que oferece um conjunto abrangente de ferramentas para automação de processos robóticos (RPA). Com rotas flexíveis que suportam a recepção e envio de dados nos formatos base64, string e JSON, essa API possibilita a automação eficiente e escalável de uma variedade de tarefas, aprimorando a produtividade e otimizando fluxos de trabalho. Ela foi projetada para integração perfeita com o Power Apps, permitindo a rápida importação e utilização dos conectores personalizados no Power Automate e no Power BI. "
+authors = ["Samuel Casaril <sycasaril@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api_rpa_toolkit"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
